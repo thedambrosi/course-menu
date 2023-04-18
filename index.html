@@ -3,49 +3,70 @@
 	<head> 
 		<title>Meu site</title>
 
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<!-- Poppins -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+		
+		<!-- Cabin -->
+		<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+		
+		<!-- Pacifico -->
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+		<!-- Styles -->
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<div id="menu">
-			<div class="back-btn"><a href="#">Pagina anterior</a></div>
-			<div>
-				<h2>Cursos do Matheus</h2>
-			</div>	
-			<dl>
-				<dt><span class="section">Seção 1</span> <span class="title">meu titulo</span></dt>
-				<dd class="active-item">
-					<div class="episode__number">01</div>
-					<div>
-						<h4>Aula 01</a></h4>
-						<span>16:45</span>
-					</div>
-				</dd>
+		<div class="container">
+			<div id="menu">
+				<div class="back-btn"><a href="#">Pagina anterior</a></div>
+				<div>
+					<h2 class="course-title">Cursos do Matheus</h2>
+				</div>	
+				<dl>
+					<dt><span class="section">Seção 1</span> <span class="title">meu titulo</span></dt>
+					<dd class="active-item">
+						<div class="episode__number">01</div>
+						<div>
+							<h4>Aula 01</a></h4>
+							<span>16:45</span>
+						</div>
+					</dd>
+					
+					<dd>
+						<div class="episode__number">02</div>
+						<div>
+							<h4>Aula 02</h4>
+							<span>16:45</span>
+						</div>
+					</dd>
+					
+					<dt><span class="section">Seção 2</span> <span class="title">meu titulo</span></dt>
+					<dd>
+						<div class="episode__number">03</div>
+						<div>
+							<h4>Aula 03</h4>
+							<span>16:45</span>
+						</div>
+					</dd>
+					
+					<dd class="completed-item">
+						<div class="episode__number">04</div>
+						<div>
+							<h4>Aula 04</h4>
+							<span>16:45</span>
+						</div>
+					</dd>				
+				</dl>
+			</div>
+			<div id="conteudo">
+				<div id="video">Video pausado</div>
+				<div class="description">Sobre o episodio</div>
 				
-				<dd>
-					<div class="episode__number">02</div>
-					<div>
-						<h4>Aula 02</h4>
-						<span>16:45</span>
-					</div>
-				</dd>
-				
-				<dt><span class="section">Seção 2</span> <span class="title">meu titulo</span></dt>
-				<dd>
-					<div class="episode__number">03</div>
-					<div>
-						<h4>Aula 03</h4>
-						<span>16:45</span>
-					</div>
-				</dd>
-				
-				<dd class="completed-item">
-					<div class="episode__number">04</div>
-					<div>
-						<h4>Aula 04</h4>
-						<span>16:45</span>
-					</div>
-				</dd>				
-			</dl>
-				</div>
-			</body>
-		</html>
+			</div>
+		</div>
+	</body>
+</html>
